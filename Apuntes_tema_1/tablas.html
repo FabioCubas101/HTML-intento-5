@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablas</title>
+    <style>
+        table, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!--Etiqueta para crear la tabla-->
+        <caption>Titulo de la tabla</caption> <!--Etiqueta para titulo de tabla-->
+
+        <tr > <!--etiquta para fila-->
+            <td>Columna 1</td> <!--Etiqueta para columna-->
+            <td>columna 2</td>
+            <td>Columna 3</td>
+        </tr>
+
+        <tr>
+            <td>test1</td>
+            <td>test2</td>
+            <td>test3</td>
+        </tr>
+
+        <tr>
+            <td>test4</td>
+            <td colspan="2">test5</td>
+            <!-- <td>test6</td> -->
+        </tr>
+        <tr></tr>
+            <td colspan="3">test7</td>
+            <!--< td>test8</td>
+                 <td>test9</td> -->
+        </tr>
+        <tr>
+            <td>test10</td>
+            <td colspan="2" rowspan="2">test11</td>
+        </tr>
+        <tr>
+            <td>test13</td>
+        </tr>
+    </table>
+</body>
+</html>
