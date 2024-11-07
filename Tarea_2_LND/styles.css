@@ -1,0 +1,62 @@
+table {
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    text-align: center;
+    background-color: aliceblue;
+}
+td {
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    text-align: center;
+}
+tr {
+    text-align: center;
+}
+body {
+    background-color: rgb(151, 230, 203);
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-decoration: underline;
+}
+h3 {
+    text-decoration: underline;
+}
+img {
+    width:40%;
+    height:40%;
+    border: 1px solid black;
+}
+#portada {
+    width:70%;
+    height:70%;
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption {
+    text-align: center;
+}
+#pa {
+    text-align: justify;
+}
+summary {
+    text-decoration: underline;
+}
+header {
+    background-color:rgb(151, 230, 203);
+}
+main {
+    background-color: rgb(151, 230, 203);
+    padding: 10px;
+}
+article {
+    background-color: white;
+}
+nav {
+    text-align: center;
+    margin-top: 15px;
+}

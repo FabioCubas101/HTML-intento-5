@@ -2,22 +2,34 @@
 <html lang="es-ES">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiG-21</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js" defer></script>
 </head>
 
-<body style="background-color: rgb(151, 230, 203);">
-
-
-    <h1 style="text-align: center;">Mikoyán-Gurévich MiG-21</h1>
-
-    <img src="MiG-21-Fishbed-Principal.jpg" alt="Foto de un MiG-21" style="width:40%; height:40%;">
+<body>
+    <header>
+        <nav>
+            <!--WIP-->
+            <a href="/">Inicio</a>
+            <a href="/about">Acerca de</a>
+            <a href="/contact">Contacto</a>
+        </nav>
+    </header>
+    <main>
+    <h1>Mikoyán-Gurévich MiG-21</h1>
+    <figure>
+    <img src="MiG-21-Fishbed-Principal.jpg" alt="Foto de un MiG-21"  id="portada">
+    <figcaption>"Ilustración de un MiG-21"</figcaption>
+    </figure>
     <br>
     <br>
 
+    <article>
+    <h2>Descripción General: </h2>
 
-    <h2 style="text-decoration: underline;">Descripción General: </h2>
-
-    <p style="text-align: justify;">El Mikoyán-Gurévich MiG-21 es un avión de combate sovietico diseñado en 1955, que tiene el record de caza supersonico mas producido en la historia con mas de 11.000 ejemplares hasta la fecha. El último ejemplar fue producido en 2017.
+    <p id="pa">El Mikoyán-Gurévich MiG-21 es un avión de combate sovietico diseñado en 1955, que tiene el record de caza supersonico mas producido en la historia con mas de 11.000 ejemplares hasta la fecha. El último ejemplar fue producido en 2017.
         <br>
         <br>
             Este caza cuenta con más de 30 modificacines distintas, siendo las primeras consideradas como caza de segunda generación, y las más modernas, de tercera generación.
@@ -26,35 +38,89 @@
     <a href="https://es.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-21" target="_blank"> Mig-21 en Wikipedia  </a>
 
 
-    <h2 style="text-decoration: underline;">Historial de servicio y Variantes Principales:</h2>
+    <h2>Historial de servicio y Variantes Principales:</h2>
 
-    <p>El MiG-21 ha estado en servicio en mas de 50 paises, y sigue en sevicio en 14 de ellos. (En azul los usuarios actuales y en rojo los usuarios históricos)
+    <p id="pa">El MiG-21 ha estado en servicio en mas de 50 paises, y sigue en sevicio en 14 de ellos. (En azul los usuarios actuales y en rojo los usuarios históricos)
         <br>
         <br>
         (EEUU solo como Avión civil privado)
 
     <br>
     <br>
-
-    <img src="MiG21operators.jpg" alt="Operadores del MiG-21" style="width:40%; height:40%;">
+    <figure>
+    <img src="MiG21operators.jpg" alt="Operadores del MiG-21">
+    </figure>
     <br>
-
+    </article>
+    </main>
     <p>
         A continucaión se muestra una tabla con las principales variantres del MiG-21
     </p>
 
     <a href="tablas.html">Variantes</a>
 
-    <h2 style="text-decoration: underline;">Enlaces Interesantes</h2>
+    <aside>
+    <h2>Enlaces Interesantes</h2>
 
 
     <a href="https://www.elgrancapitan.org/foro/viewtopic.php?t=31670" target="_blank"> Historia del MiG-21  </a>
     <br>
 
     <a href="https://www.youtube.com/watch?v=d1gvc_Nx88E" target="_blank"> Video Interesante  </a>
+    </aside>
+    <br>
     <br>
 
-
-
+    <details>
+        <summary>Regístrate aquí:</summary>
+        <table>
+            <tr>Formulario de registro:</tr>
+                <td>
+                    <!--WIP-->
+                    <form action="https://webhook.site/22b88f77-1999-4283-af32-d7fee8b6712b" method="post">
+                        <input type="hidden" name="Nombre y apellidos" value="Fabio Cubas Valido">
+                        <p>Introduce tu numbre de usuario:</p>
+                        <input type="text" name="Usuario" id="">
+                        <p>Indtroduce tu contraseña:</p>
+                        <input type="password" name="Contraseña" id="">
+                        <p>Indtroduce tu dirección de correo:</p>
+                        <input type="email" name="Correo" id="">
+                        <br>
+                        <br>
+                        <label>
+                            Elige tu Región:
+                            <select>
+                                <option></option>
+                                <option>Europa</option>
+                                <option>America (Norte)</option>
+                                <option>America (Sur)</option>
+                                <option>Asia</option>
+                                <option>Oceania</option>
+                                <option>Africa</option>
+                            </select>
+                        </label>
+                        <br>
+                        <p>¿Quieres recibir noticias relacionadas?</p>
+                        <label>
+                            <input type="radio" name="eleción" value="Si">
+                            Si
+                        </label>
+                        <label>
+                            <input type="radio" name="eleción" value="No">
+                            No
+                        </label>
+                        <br>
+                        <label>
+                            Termirar y enviar: <input type="submit">
+                            <br>
+                            Borrar datos: <input type="reset">
+                        </label>
+                </td>
+        </table>
+    </details>
+    <footer>
+        <p>© Mi página web</p>
+        <p id="demo"></p>
+    </footer>
 </body>
 </html>
