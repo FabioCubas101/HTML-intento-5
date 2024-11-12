@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiG-21</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 
@@ -40,7 +40,7 @@
 
     <h2>Historial de servicio y Variantes Principales:</h2>
 
-    <p id="pa">El MiG-21 ha estado en servicio en mas de 50 paises, y sigue en sevicio en 14 de ellos. (En azul los usuarios actuales y en rojo los usuarios históricos)
+    <p id="pa2">El MiG-21 ha estado en servicio en mas de 50 paises, y sigue en sevicio en 14 de ellos. (En azul los usuarios actuales y en rojo los usuarios históricos)
         <br>
         <br>
         (EEUU solo como Avión civil privado)
@@ -74,49 +74,56 @@
     <details>
         <summary>Regístrate aquí:</summary>
         <table>
-            <tr>Formulario de registro:</tr>
+            <tr>
+                <td>Formulario de registro:</td>
+            </tr>
+            <tr>
                 <td>
-                    <!--WIP-->
-                    <form action="https://webhook.site/22b88f77-1999-4283-af32-d7fee8b6712b" method="post">
+                    <form action="https://webhook.site/7d580ff9-65b4-42eb-b1e2-c67d9a7a1667" method="POST">
                         <input type="hidden" name="Nombre y apellidos" value="Fabio Cubas Valido">
                         <p>Introduce tu numbre de usuario:</p>
-                        <input type="text" name="Usuario" id="">
+                        <input type="text" name="Usuario">
                         <p>Indtroduce tu contraseña:</p>
-                        <input type="password" name="Contraseña" id="">
+                        <input type="password" name="Contraseña">
                         <p>Indtroduce tu dirección de correo:</p>
-                        <input type="email" name="Correo" id="">
+                        <input type="email" name="Correo">
                         <br>
                         <br>
                         <label>
                             Elige tu Región:
-                            <select>
-                                <option></option>
-                                <option>Europa</option>
-                                <option>America (Norte)</option>
-                                <option>America (Sur)</option>
-                                <option>Asia</option>
-                                <option>Oceania</option>
-                                <option>Africa</option>
+                            <select name="Continente">
+                                <option>Selecciona una:</option>
+                                <option value="Europa">Europa</option>
+                                <option value="America (Norte)">America (Norte)</option>
+                                <option value="America (sur)">America (Sur)</option>
+                                <option value="Asia">Asia</option>
+                                <option value="Oceania">Oceania</option>
+                                <option value="Africa">Africa</option>
                             </select>
                         </label>
                         <br>
                         <p>¿Quieres recibir noticias relacionadas?</p>
                         <label>
-                            <input type="radio" name="eleción" value="Si">
+                            <input type="radio" name="eleccion" value="true">
                             Si
                         </label>
                         <label>
-                            <input type="radio" name="eleción" value="No">
+                            <input type="radio" name="eleccion" value="false">
                             No
                         </label>
                         <br>
                         <label>
                             Termirar y enviar: <input type="submit">
                             <br>
+                        </label>
+                        <label>
                             Borrar datos: <input type="reset">
                         </label>
+                    </form>
                 </td>
+            </tr>
         </table>
+
     </details>
     <footer>
         <p>© Mi página web</p>

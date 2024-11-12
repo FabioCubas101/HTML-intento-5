@@ -14,6 +14,7 @@ tr {
 }
 body {
     background-color: rgb(151, 230, 203);
+    text-align: center;
 }
 h1 {
     text-align: center;
@@ -30,8 +31,8 @@ img {
     border: 1px solid black;
 }
 #portada {
-    width:70%;
-    height:70%;
+    width:30%;
+    height:30%;
     border: 1px solid black;
     display: block;
     margin-left: auto;
@@ -41,7 +42,10 @@ figcaption {
     text-align: center;
 }
 #pa {
-    text-align: justify;
+    text-align: center;
+}
+#pa2 {
+    text-align: center;
 }
 summary {
     text-decoration: underline;
@@ -55,8 +59,13 @@ main {
 }
 article {
     background-color: white;
+    padding: 10px;
 }
 nav {
     text-align: center;
     margin-top: 15px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
 }
