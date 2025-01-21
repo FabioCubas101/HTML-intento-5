@@ -32,6 +32,14 @@
     left: 16em;
 }
 img {
+<<<<<<< HEAD
     width: 60%;
     height: auto;
+=======
+    width: 10%;
+    height: auto;
+    position: absolute;
+    z-index: 3;
+    left: 17em;
+>>>>>>> d01010b43779747f18420d5a6a7d8259b41c497b
 }

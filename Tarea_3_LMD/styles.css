@@ -1,0 +1,110 @@
+table {
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    text-align: center;
+    background-color: aliceblue;
+}
+td {
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    text-align: center;
+}
+tr {
+    text-align: center;
+}
+body {
+    background-color: rgb(151, 230, 203);
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-decoration: underline;
+}
+h3 {
+    text-decoration: underline;
+}
+img {
+    width:40%;
+    height:40%;
+    border: 1px solid black;
+}
+#portada {
+    width:30%;
+    height:30%;
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption {
+    text-align: center;
+}
+#pa {
+    text-align: center;
+}
+#pa2 {
+    text-align: center;
+}
+summary {
+    text-decoration: underline;
+}
+header {
+    background-color:rgb(151, 230, 203);
+    font-family: fantasy;
+}
+main {
+    background-color: rgb(151, 230, 203);
+    padding: 10px;
+}
+article {
+    background-color: white;
+    padding: 10px;
+}
+nav {
+    text-align: center;
+    padding: 5px;
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+nav a {
+    font-family: Arial;
+    display: block;
+}
+/* nav a:hover {
+    background-color: white;
+} no consigo que funcione como quiero*/
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  #galeria {
+    border-radius: 10px;
+  }
