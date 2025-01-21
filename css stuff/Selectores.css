@@ -1,0 +1,34 @@
+* {
+    margin:0px;
+    padding:0px;
+}¨
+
+body {
+
+}
+
+p {
+    color:red;
+    background-color:rgb(122, 203, 250);
+}
+
+h1, h2 {
+    color:darkseagreen;
+}
+
+h2 {
+    background-color: blueviolet;
+}
+
+p span {
+    color:aqua;
+}
+
+.colorFondoGris{
+    color:white;
+    background-color: gray;
+}
+
+.tamañoGrande {
+    font-size:xx-large;
+}
