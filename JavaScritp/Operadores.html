@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+</head>
+<body>
+    <script>
+
+        let x;
+        let y;
+        
+        x = prompt ("dime x");
+        x = Number(x);
+        y = prompt ("dime y");
+        y = Number(y);
+        
+        let suma = x+y;
+
+
+        document.write ("La suma de x e y es: " + (x+y) + "<br>");
+        console.log ("suma" + suma);
+
+        let z = x-y;
+
+        console.log ("resta " +  z);
+
+        z = x*y;
+        console.log ("multiplicación" + z);
+
+        z = x%y;
+        console.log ("resto " + z);
+
+        z = x**y;
+        console.log ("exponente " + z);
+
+        x++;
+        console.log ("incremento x " + x);
+
+        y++;
+        console.log ("incremento y " + y);
+
+        
+        x--;
+        console.log ("decremento x " + x);
+
+        y--;
+        console.log ("decremento y " + y);
+
+    </script>
+</body>
+</html>
